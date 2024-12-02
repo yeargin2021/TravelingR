@@ -11,7 +11,7 @@ while True:
         for position in range(screen_width):
             os.system('clear' if os.name == 'posix' else 'cls')  # Clear screen
             print(' ' * position + r)  # Move `r` to the right
-            time.sleep(0.1)  # Pause for a short period of time
+            time.sleep(0.0125)  # Pause for a short period of time
 
 
     # Run the banner
